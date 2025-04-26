@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KM Beleza e estética</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <br>
+
+     <header>
+     
+        <h1><img src="img/logo.png" alt="Minha Loja" style="width: 250px; height: 250px;"></h1>
+        
+      </header>
+
+      
+      <button style="width: 100%;" class="tag-bazar" onclick="copyToClipboard('bill010203')">
+        <img src="img/wifi.png" style="width: 48px; height: 48px;">
+        <span>Conecte ao Wi-Fi</span>
+      </button>
+      
+      <button style="width: 100%;"  class="tag-bazar" onclick="copyToClipboard('11975145173')">
+        <img  src="img/pix.png" style="width: 45px; height: 45px;">
+        <span> Chave Pix </span>
+      </button>
+      
+      <a class="tag-bazar" href="https://www.instagram.com/km.belezaeestetica/" target="_blank">
+        <img  src="img/insta.png" style="width: 45px; height: 45px; margin: 30px;">
+        <span>Instagtam</span>
+      </a>
+      
+      <a class="tag-bazar" href="https://wa.me/5511975145173" target="_blank">
+        <img src="img/whatsapp.png" style="width: 36px; height: 36px; margin: 30px;">
+        <span>WhatsApp</span>
+      </a>
+      
+      
+    <footer>
+      <p>© 2025 KM Beleza e estética </p>
+    </footer>
+  </div>
+
+  <script>
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text).then(() => {
+        alert("Copiado: " + text);
+      });
+    }
+  </script>
+</body>
+</html>
