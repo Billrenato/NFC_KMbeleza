@@ -6,7 +6,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    background-image: radial-gradient(#9fd4ff, #fdf4ea);
+    background-image: radial-gradient(#9fd4ff, #dddddd);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -38,24 +38,21 @@ body {
   
   
   
-  .tag-bazar {
+  button, a {
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-start;
-    background: #a5a0954f;
-    
-    color: white;
-    
-    border-radius: 60px;
+    background: #49413300;
+    border-radius: 8px;
     text-decoration: none;
     border: none;
-    font-size: 20px;
     cursor: pointer;
     transition: background 0.3s;
-    width: auto;
-    height: 60px; /* Ajustei a altura para 60px para que fique mais proporcional */
-    margin-top: 20px;
+    height: 60px;
+    width: 60px;
   }
+
+
   
   .tag-bazar img {
     margin-right: 10px;
