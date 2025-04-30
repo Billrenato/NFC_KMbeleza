@@ -4,7 +4,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    background-image: radial-gradient(#c1def8);
+    background-color:#c1def8 ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -40,7 +40,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #49413300;
+    background: #ffffff69;
     border-radius: 8px;
     text-decoration: none;
     border: none;
@@ -48,6 +48,7 @@ body {
     transition: background 0.3s;
     height: 60px;
     width: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
 
   .tag-bazar {
@@ -67,6 +68,7 @@ body {
     height: 30px;
     margin-top: 20px;
     font-size: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     
   }
   
